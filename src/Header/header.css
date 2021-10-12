@@ -1,8 +1,33 @@
 #header {
+    background-color: orange;  
+    line-height: 50px;
     display: flex;
-
+    justify-content: space-around;
+    white-space:nowrap;
 }
 
 #header div {
-    margin: 10px;
+    display: flex;
+    cursor: pointer;
 }
+
+#headerLeft {
+    font-size: 22px;
+    font-weight: bold;
+    width: 50vw;
+}
+
+#headerLeft img {
+    padding-right: 20px;
+    height: 100%;
+    width: 40px;
+}
+
+#headerRight div:hover {
+    text-decoration: underline;
+}
+
+#headerRight div {
+    padding-right: 20px;
+}
+

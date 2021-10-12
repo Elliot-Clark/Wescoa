@@ -4,11 +4,16 @@ import logo from './logo.svg'
 let header = () => {
     return (
         <div id="header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <div>Top</div>
-            <div>Engine Comparisons</div>
-            <div>Engine Specifications</div>
-            <div>Contact</div>
+            <div id="headerLeft">
+                <img src={logo} className="App-logo" alt="logo" />
+                <div>Wescoa Motors</div>
+            </div>
+            
+            <div id="headerRight">
+                <div>Engine Comparisons</div>
+                <div>Engine Specifications</div>
+                <div>Contact</div>
+            </div>
         </div>
     )
 }
