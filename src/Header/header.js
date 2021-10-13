@@ -6,7 +6,7 @@ let header = () => {
         <div id="header">
             <div id="headerLeft">
                 <img src={logo} className="App-logo" alt="logo" />
-                <div>Wescoa Motors</div>
+                <div><a href="/">Wescoa Motors</a></div>
             </div>
             
             <div id="headerRight">
