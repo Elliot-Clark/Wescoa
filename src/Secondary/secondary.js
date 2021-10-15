@@ -1,4 +1,5 @@
 import './secondary.css'
+import secondaryImage1 from './V2-90 Motorcycle.jpg'
 
 let Secondary = () => {
     return (
@@ -7,7 +8,7 @@ let Secondary = () => {
                 <h2>Wescoa Engine Technology Inc.</h2>
 
                 <div id="secondaryTextWrapper">
-                    <div id="leftSecondary">
+                    <div id="topLeftSecondary">
                         <p>
                             WET (“Wescoa” or the “Company”) was formed in 2004 under the laws of California in order to design,
                             produce and market state of the art lightweight high performance 4-stroke engines for 
@@ -17,12 +18,27 @@ let Secondary = () => {
                     </div>
                     
                     <br></br>
-                    <p id="rightSecondary">
+                    <p id="topRightSecondary">
                         The company engaged world class talent to develop this family of V2-90 internal combustion engines,
                         which, were designed as the heart of the new hybrid power trains that will be utilized in further vehicles
                         as well as the primary power source for smaller non-hybrid vehicles.
                     </p>
                 </div>
+
+                <h2>The Wescoa Mission:</h2>
+
+                <div id="secondaryImageWrapper">
+                    <div id="bottomLeftSecondary">
+                        <img src={secondaryImage1} alt="V2-90 Wescoa Engine Motorcycle"></img>
+                    </div>
+
+                    <div id="bottomRightSecondary">
+                        <ul>To promote and sell advanced engine technology</ul>
+                        <ul>Develop patent and leading edge technology for such engines</ul>
+                        <ul>License proprietary technology to major producers for global markets</ul>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
