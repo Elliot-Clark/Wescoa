@@ -4,6 +4,7 @@ import First from './First/first.js'
 import Secondary from './Secondary/secondary.js'
 import Tertiary from './Tertiary/tertiary.js'
 import Forth from './Forth/forth.js'
+import Fifth from './Fifth/fifth.js'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Secondary />
       <Tertiary />
       <Forth />
+      <Fifth />
     </div>
   );
 }

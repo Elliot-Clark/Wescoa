@@ -10,7 +10,7 @@ let header = () => {
             </div>
             
             <div id="headerRight">
-                <div>About</div>
+                <div>The Company</div>
                 <div>Engine Comparisons</div>
                 <div>Engine Specifications</div>
                 <div>Contact</div>
