@@ -1,0 +1,99 @@
+#forth {
+    color: #adbdcc;
+    background-color: #0a2540;
+    position: relative;
+    margin-top: 5%;
+    letter-spacing: .2px;
+}
+
+#forth:before {
+    content: "";
+    width: 100%;
+    height: 200px;
+    background-color: #0a2540;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    transform: skewY(4deg);
+    z-index: -100;
+  }
+
+#forthUpperWrapper {
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#forthUpperLeftWrapper {
+    text-align: left;
+    width: 40%;
+    margin-left: 10%;
+}
+
+#forth h1 {
+    color: orange;
+}
+
+#forthUpperRightWrapper {
+    width: 40%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#forth td, #forth th {
+    padding: 5px;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 2px;
+    font-family: "noticia-text", "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
+}
+
+#forth .table-row-name, #forth th {
+    font-size: 1.05rem;
+    background-color: #E17E43;
+    color: white;
+    padding: 1%;
+}
+
+#forth th {
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+#forth td {
+    background-color: white;
+}
+
+#forthMiddleWrapper ol {
+    text-align: left;
+    margin: 5%;
+}
+
+#forthBottomWrapper {
+    margin-right: 10%;
+    text-align: right;
+}
+
+#forthBottomWrapperLower {
+    display: flex;
+    justify-content: space-between;
+}
+
+#forthBottomWrapperLeft {
+    width: 60%;
+}
+
+#forthBottomWrapperLeft img {
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+#forthBottomWrapperRight {
+    width: 40%;
+}
+
+#forthBotthWrapperRight li {
+    list-style-type: none;
+}

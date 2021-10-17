@@ -8,7 +8,7 @@ import BMW from './images/BMW.png'
 let Tertiary = () => {
     return (
         <div id="tertiary">
-            <div id="table">
+            <div id="engineComparisonsTable">
                 <tbody>
                     <tr>
                         <th>Engine Comparisons</th>

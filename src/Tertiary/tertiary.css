@@ -6,45 +6,51 @@
     justify-content: center;
 }
 
-#table {
+#tertiary #engineComparisonsTable {
     width: 70%;
 }
 
-td, th {
+#tertiary tbody {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 20px;
+}
+
+#tertiary td, #tertiary th {
     padding: 5px;
     border: 1px solid black;
+    border-radius: 2px;
     font-family: "noticia-text", "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
 }
 
-td img {
+#tertiary td img {
     width: 100px;
     height: 100px;
 }
 
-.table-row-name, th {
+#tertiary .table-row-name, #tertiary th {
     font-size: 1.05rem;
     background-color: #E17E43;
     color: white;
     padding: 1%;
 }
 
-th {
+#tertiary th {
     font-weight: bold;
     font-size: 1.15rem;
 }
 
-.table-horsepower {
-    background-color: yellow;
+#tertiary .table-horsepower {
+    background-color: rgb(250, 237, 58);
 } 
 
-tr:nth-child(2n + 4) {
+#tertiary tr:nth-child(2n + 4) {
     background-color: #cccccc;
 }
 
-tr:hover {
-    background-color: #333
+#tertiary tr:hover {
+    background-color: rgb(158, 156, 156)
 }
 
-#table-images:hover {
+#tertiary #table-images:hover {
     background-color: white;
 }
