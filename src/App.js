@@ -5,6 +5,7 @@ import Secondary from './Secondary/secondary.js'
 import Tertiary from './Tertiary/tertiary.js'
 import Forth from './Forth/forth.js'
 import Fifth from './Fifth/fifth.js'
+import Footer from './Footer/footer.js'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Tertiary />
       <Forth />
       <Fifth />
+      <Footer />
     </div>
   );
 }
