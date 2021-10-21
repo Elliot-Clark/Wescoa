@@ -1,5 +1,4 @@
 #secondary {
-    height: 100vh;
     padding-top: 1px;
     margin-top: 5%;
     background-color: #343a38;
@@ -65,12 +64,12 @@
     display: flex;
 }
 
-#bottomLeftSecondary {
-    text-align: center;
+#responsiveTitle {
+    display: none;
 }
 
 #bottomLeftSecondary img {
-    width: 80%;
+    width: 100%;
     position: relative;
     bottom: 30%;
     right: 10%;
@@ -89,3 +88,37 @@ ul {
     letter-spacing: .3px;
     line-height: 26px;
 }
+
+@media only screen and (max-width: 1200px) {
+    #secondaryImageWrapper {
+        display: block;
+    }
+
+    #normalTitle {
+        display: none;
+    }
+
+    #responsiveTitle {
+        display: block;
+        text-align: right;
+    }
+
+    #bottomLeftSecondary img {
+        width: 70%;
+    }
+
+    #bottomLeftSecondary {
+        text-align: center;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    #secondaryTextWrapper {
+        display: block;
+    }
+
+    #bottomRightSecondary {
+        white-space: normal;
+    }
+  }
+

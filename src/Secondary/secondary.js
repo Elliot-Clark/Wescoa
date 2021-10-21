@@ -25,13 +25,13 @@ let Secondary = () => {
                     </p>
                 </div>
 
-                <h2>The Wescoa Mission:</h2>
+                <h2 id="normalTitle">The Wescoa Mission:</h2>
 
                 <div id="secondaryImageWrapper">
                     <div id="bottomLeftSecondary">
                         <img src={secondaryImage1} alt="V2-90 Wescoa Engine Motorcycle"></img>
                     </div>
-
+                    <h2 id="responsiveTitle">The Wescoa Mission:</h2>
                     <div id="bottomRightSecondary">
                         <ul>To promote and sell advanced engine technology</ul>
                         <ul>Develop patent and leading edge technology for such engines</ul>
