@@ -10,10 +10,10 @@ let header = () => {
             </div>
             
             <div id="headerRight">
-                <div>The Company</div>
-                <div>Engine Comparisons</div>
-                <div>Engine Specifications</div>
-                <div>Contact</div>
+                <div><a href="#secondary">The Company</a></div>
+                <div><a href="#tertiary">Engine Comparisons</a></div>
+                <div><a href="#forth">Engine Specifications</a></div>
+                <div><a href="#fifth">Contact</a></div>
             </div>
         </div>
     )
