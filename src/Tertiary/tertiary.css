@@ -5,6 +5,11 @@
     justify-content: center;
 }
 
+#tertiary h1 {
+    margin: 3%;
+    font-size: 3.2rem;
+}
+
 #tertiary #engineComparisonsTable {
     width: 70%;
 }

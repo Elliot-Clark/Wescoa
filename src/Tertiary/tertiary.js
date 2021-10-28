@@ -9,10 +9,11 @@ let Tertiary = () => {
     return (
         <div id="tertiary">
             <div id="engineComparisonsTable">
+                <h1>Engine Comparisons</h1>
                 <table>
                     <tbody>
                         <tr>
-                            <th>Engine Comparisons</th>
+                            <th></th>
                             <th>Wescoa V2-90</th>
                             <th>Ford Ecoboost</th>
                             <th>Honda</th>
