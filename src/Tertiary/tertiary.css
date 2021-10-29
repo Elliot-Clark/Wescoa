@@ -1,6 +1,8 @@
 #tertiary {
     background-image: url("./Background.svg");
-    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     z-index: -1000;
     margin: 0;
     padding: 0;
@@ -14,8 +16,9 @@
 }
 
 #tertiary h1 {
-    margin: 3%;
+    margin: 2%;
     font-size: 3.2rem;
+    color: orange;
 }
 
 #tertiary #engineComparisonsTable {

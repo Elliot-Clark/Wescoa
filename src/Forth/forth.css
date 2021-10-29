@@ -2,33 +2,8 @@
     color: #adbdcc;
     background-color: #0a2540;
     position: relative;
-    margin-top: 5%;
     letter-spacing: .2px;
 }
-
-#forth:before {
-    content: "";
-    width: 100%;
-    height: 200px;
-    background-color: #0a2540;
-    position: absolute;
-    top: -50px;
-    left: 0;
-    transform: skewY(4deg);
-    z-index: -100;
-  }
-
-  #forth:after {
-    content: "";
-    width: 100%;
-    height: 200px;
-    background-color: #0a2540;
-    position: absolute;
-    top: -50px;
-    left: 0;
-    transform: skewY(-4deg);
-    z-index: -100;
-  }
 
 #forthUpperWrapper {
     display: flex;

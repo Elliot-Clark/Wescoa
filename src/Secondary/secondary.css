@@ -20,25 +20,15 @@
     z-index: -100;
   }
 
-  #secondary:after {
-    content: "";
-    width: 100%;
-    height: 220px;
-    background-color: #343a38;
-    position: absolute;
-    bottom: -100px;
-    left: 0;
-    transform: skewY(4deg);
-    z-index: -100;
-  }
-
 #secondary h2 {
     color: orange;
 }
 
 #secondaryWrapper {
     text-align: left;
-    margin: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
     font-size: 1.3rem;
 }
 
