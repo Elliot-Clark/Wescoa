@@ -1,5 +1,6 @@
 import './secondary.css'
 import secondaryImage1 from './V2-90 Motorcycle.jpg'
+import ImageGallery from './ImageGallery/images.js'
 
 let Secondary = () => {
     return (
@@ -36,9 +37,10 @@ let Secondary = () => {
                         <ul>To promote and sell advanced engine technology</ul>
                         <ul>Develop patent and leading edge technology for such engines</ul>
                         <ul>License proprietary technology to major producers for global markets</ul>
+                        <button id="imageGalleryButton">Wescoa Image Gallery →</button>
+                        < ImageGallery />
                     </div>
                 </div>
-
             </div>
         </div>
     )
