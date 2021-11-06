@@ -69,7 +69,7 @@ let Forth = () => {
                 <p>The engine can be used in numerous applications:</p>
                 <div id="forthBottomWrapperLower">
                     <div id="forthBottomWrapperLeft">
-                        <img src={graphImage} alt="Wescoa V2 Preliminary Perforamnce Graph"></img>
+                        <a rel="noreferrer" target="_blank" href={graphImage}><img src={graphImage} alt="Wescoa V2 Preliminary Perforamnce Graph"></img></a>
                     </div>
                     <div id="forthBotthWrapperRight">
                         <ul>
