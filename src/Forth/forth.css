@@ -3,6 +3,7 @@
     background-color: #0a2540;
     position: relative;
     letter-spacing: .2px;
+    font-size: 1.6rem;
 }
 
 #forthUpperWrapper {
@@ -83,4 +84,20 @@
 
 #forthBotthWrapperRight li {
     list-style-type: none;
+}
+
+@media only screen and (max-width: 900px) {
+    #forthUpperWrapper {
+        flex-direction: column;
+    }
+
+    #forthUpperRightWrapper {
+        width: 80%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    #forthUpperLeftWrapper {
+        width: 80%;
+    }
 }
